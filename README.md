@@ -14,7 +14,7 @@ Template for flask backend with svelte frontend components.
 * In the root project folder, use `npx degit sveltejs/template client` to create a new directory called `client` and copy svelte inside it
 * Inside `client`, run `npm install` to install svelte
 * Use `npm run dev` to confirm that the installation worked
-* Use `npm run autobuild` to automatically build svelte when files are saved
+* Use `npm run build` to build svelte each time svelte files are modified and saved
 
 
 ## Running the app locally
@@ -24,5 +24,5 @@ Running the backend:
 * `export FLASK_ENV=development`
 * `flask run`
 
-
+After svelte code is compiled into the `build` directory and flask routes are pointed at these files, running the flask backend will allow serving of svelte files.
 
