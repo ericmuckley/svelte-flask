@@ -11,3 +11,10 @@ Template for flask backend with svelte frontend components.
 
 ### Running the app locally
 
+Running the backend:
+* `export FLASK_APP=app`
+* `export FLASK_ENV=development`
+* `flask run`
+
+
+
