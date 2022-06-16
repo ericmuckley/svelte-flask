@@ -6,7 +6,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-   return render_template('index.html')
+   #return render_template('index.html')
+   return send_from_directory('client/public', 'index.html')
 
 @app.route('/about')
 def about():

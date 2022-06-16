@@ -6,6 +6,7 @@
     fetch("./getrandomnumber").then(r => r.text()).then(r => (rand = r))
   }
 
+  /*
   function getItems() {
 	fetch("./getitems").then(r => r.json()).then(r => (items = r))
   }
@@ -13,6 +14,7 @@
   function deleteItem() {
 	this.parentElement.remove()
   }
+  */
 </script>
 
 
@@ -22,6 +24,7 @@
 	Get a random number
 </button>
 
+<!--
 <button class="btn btn-secondary mt-3" type="button" on:click={getItems}>
 	Get items
 </button>
@@ -38,3 +41,4 @@
 		</div>
   	{/each}
 </div>
+-->
